@@ -6,6 +6,8 @@ export default function Home() {
         <Head>
           <title>Luke Millam</title>
         </Head>
+        <h1>Luke Millam</h1>
       </>
+      
     )
   }
