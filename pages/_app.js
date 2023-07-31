@@ -5,7 +5,7 @@ import NavBar from '../Components/NavBar.jsx'
 export default function MyApp({ Component, pageProps }) {
     return (
       <>
-        <Component {...pageProps} />
+     <Component {...pageProps} />
         <Head>
           <title>Luke Millam</title>
         </Head>
