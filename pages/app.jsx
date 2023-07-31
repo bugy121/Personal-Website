@@ -1,6 +1,6 @@
 import '../styles/navBar.module.css'
 import Head from 'next/head'
-import NavBar from '../components/NavBar.jsx'
+import NavBar from '../Components/NavBar.jsx'
 
 export default function App({ Component, pageProps }) {
     return (
