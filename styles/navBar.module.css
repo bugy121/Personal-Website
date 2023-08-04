@@ -1,0 +1,25 @@
+.navLink {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+.navText {
+    font-family: 'Montserrat', sans-serif;
+    z-index: 2;
+    position: fixed;
+    top: 0vh
+}
+@media screen and (max-width: 950px) {
+    .mainInfoBoxLarge {
+        display: none !important;
+    }
+}
+@media screen and (min-width: 950px) {
+    .mainInfoBoxSmall {
+        display: none !important;
+    }
+}
+.mainInfoBoxSmall {
+    position: relative !important;
+    z-index: 100 !important;
+}
