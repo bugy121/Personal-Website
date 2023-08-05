@@ -19,7 +19,6 @@ export default function NavBar() {
         </FadeIn>
         </Flex>
         
-        
         </>
     )
 }
