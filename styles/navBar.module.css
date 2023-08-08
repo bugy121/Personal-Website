@@ -38,3 +38,10 @@
     -webkit-transform: scale(1,2);
     transform: scale(1.2);
 }
+.navMenuItem {
+    border: 0px solid #000000;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-radius: 2px;
+    background-color: #000000;
+}
