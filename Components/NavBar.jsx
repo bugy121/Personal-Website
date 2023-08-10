@@ -43,6 +43,9 @@ export default function NavBar() {
                     <MenuItem className={Styles.menuItem} onClick={() => GoTo('/contact')} >
                         <Box m='10' ml='15px' mr='15px'><Link className={Styles.navLink} href='/contact'>Contact</Link></Box>
                     </MenuItem>
+                    <MenuItem className={Styles.menuItem} onClick={() => GoTo('/resume')} >
+                        <Box m='10' ml='15px' mr='15px'><Link className={Styles.navLink} href='/resume'>Resume</Link></Box>
+                    </MenuItem>
                 </MenuList>
                 </Menu>
             </Box>
