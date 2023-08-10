@@ -5,10 +5,10 @@ import Styles from '../styles/contact.module.css'
 export default function contact(){
     return(
         <>
-        <Box justify-content='center' alignItems='center'>
-            <Image justify-content='center' className={Styles.backgroundImage} src='/images/LukeNoBackground.png' width='400' height='600' alt=''/>
+        <Box justify-content='center' justifyContent='center' className={Styles.imageContainer} w='400px' h='600px'>
+            <Image justify-content='center' src='/images/LukeNoBackground.png' layout='fill' alt=''/>
         </Box>
-        <Box className={Styles.frontText} paddingTop='30px' align='center' fontSize='50px' fontWeight='800' z-inderx='2'>Contact</Box>
+        <Box className={Styles.frontText} paddingTop='30px' align='center' fontSize='50px' fontWeight='800' z-index='2'>Contact</Box>
         
         </>
     )
