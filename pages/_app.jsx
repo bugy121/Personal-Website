@@ -9,6 +9,7 @@ export default function MyApp({ Component, pageProps }) {
         <div>
           <NavBar />
           <Component {...pageProps} />
+          
         </div>
         <Head>
           <title>Luke Millam</title>
