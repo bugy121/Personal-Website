@@ -1,6 +1,6 @@
 import '../styles/app.css'
 import Head from 'next/head'
-import NavBar from '../Components/NavBar.jsx'
+import NavBar from '../components/NavBar.jsx'
 import { ChakraProvider } from '@chakra-ui/react'
 
 
