@@ -7,7 +7,7 @@ import useBreakpoint from 'use-breakpoint'
 
 const BREAKPOINTS = { mobile: 0, tablet: 768, desktop: 1280 }
 
-export default function workExperience(){
+export default function WorkExperience(){
     const { breakpoint, maxWidth, minWidth } = useBreakpoint(
         BREAKPOINTS,
         'desktop'

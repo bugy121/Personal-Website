@@ -6,7 +6,7 @@ import {EnvelopeAtFill, Instagram, Twitter, Facebook, Linkedin, Github} from 're
 
 const BREAKPOINTS = { mobile: 0, tablet: 768, desktop: 1280 }
 
-export default function contact(){
+export default function Contact(){
     const { breakpoint, maxWidth, minWidth } = useBreakpoint(
         BREAKPOINTS,
         'desktop'
