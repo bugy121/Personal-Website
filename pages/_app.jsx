@@ -1,21 +1,19 @@
-import '../styles/navBar.module.css'
+import '../styles/app.css'
 import Head from 'next/head'
 import NavBar from '../Components/NavBar.jsx'
+import { ChakraProvider } from '@chakra-ui/react'
 
 
 export default function MyApp({ Component, pageProps }) {
     return (
-      <>
-        <div>
-          <NavBar />
+      <ChakraProvider>
+          <NavBar/>
           <Component {...pageProps} />
           
-        </div>
         <Head>
           <title>Luke Millam</title>
         </Head>
         
-        
-      </>
+      </ChakraProvider>
     )
   }
