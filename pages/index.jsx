@@ -5,7 +5,7 @@ import FadeIn from "react-fade-in/lib/FadeIn"
 import useBreakpoint from 'use-breakpoint'
 import headShot from '../public/images/IMG_1019.JPG'
 import { useAnimate } from "framer-motion"
-import BounceInSide from "../components/animation/bounceIn"
+import BounceInSide from "../components/animation/bouncein"
 //import headShot from 'IMG_1019.JPG'
 //import ParticleAnimation from 'react-particle-animation'
 const BREAKPOINTS = { mobile: 0, tablet: 768, desktop: 1280 }
