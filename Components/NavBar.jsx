@@ -20,9 +20,9 @@ export default function NavBar() {
         <FadeIn>
             <Flex className={Styles.mainInfoBoxLarge} mb='18px' fontSize='17px' fontWeight='500'>
                 <Box m='10' ml='0px' mr='30px' className={Styles["grow-on-hover"]}><Link className={Styles.navLink} href='/'>Home</Link></Box>
-                <Box m='10' ml='30px' mr='30px' className={Styles["grow-on-hover"]}><Link className={Styles.navLink} href='/Portfolio'>Portfolio</Link></Box>
-                <Box m='10' ml='30px' mr='30px' className={Styles["grow-on-hover"]}><Link href='/WorkExperience' className={Styles.navLink}>Work&nbsp;Experience</Link></Box>
-                <Box m='10' ml='30px' mr='0px' className={Styles["grow-on-hover"]}><Link className={Styles.navLink} href='/Contact'>Contact</Link></Box>
+                <Box m='10' ml='30px' mr='30px' className={Styles["grow-on-hover"]}><Link className={Styles.navLink} href='/portfolio'>Portfolio</Link></Box>
+                <Box m='10' ml='30px' mr='30px' className={Styles["grow-on-hover"]}><Link href='/workExperience' className={Styles.navLink}>Work&nbsp;Experience</Link></Box>
+                <Box m='10' ml='30px' mr='0px' className={Styles["grow-on-hover"]}><Link className={Styles.navLink} href='/contact'>Contact</Link></Box>
             </Flex>
         </FadeIn>
 
