@@ -1,5 +1,5 @@
 import {Box,Flex} from '@chakra-ui/react'
-import Image from 'next/Image'
+import Image from 'next/image'
 import Styles from '../styles/contact.module.css'
 import Intel from '../public/images/Intel-Logo.png'
 import Truss from '../public/images/IMG_1431.PNG'

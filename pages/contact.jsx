@@ -1,5 +1,5 @@
 import {Box,Flex,Spacer,Link} from '@chakra-ui/react'
-import Image from 'next/Image'
+import Image from 'next/image'
 import Styles from '../styles/contact.module.css'
 import useBreakpoint from 'use-breakpoint'
 import {EnvelopeAtFill, Instagram, Twitter, Facebook, Linkedin, Github} from 'react-bootstrap-icons';

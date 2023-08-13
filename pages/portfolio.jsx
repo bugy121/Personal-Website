@@ -1,5 +1,5 @@
 import {Box,Flex,Link} from '@chakra-ui/react'
-import Image from 'next/Image'
+import Image from 'next/image'
 import Styles from '../styles/portfolio.module.css'
 import RMTC from '../public/images/logo_mini.png'
 import wapply from '../public/images/WapplyLogo.png'
