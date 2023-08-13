@@ -2,6 +2,7 @@ import {Box,Flex} from '@chakra-ui/react'
 import Image from 'next/Image'
 import Styles from '../styles/contact.module.css'
 import Intel from '../public/images/Intel-Logo.png'
+import Truss from '../public/images/IMG_1431.PNG'
 import useBreakpoint from 'use-breakpoint'
 
 const BREAKPOINTS = { mobile: 0, tablet: 768, desktop: 1280 }
@@ -101,7 +102,7 @@ export default function workExperience(){
             style={{
                 position: "relative"
             }}>
-                 <img src={Intel.src} alt='RMTC'
+                 <img src={Truss.src} alt='RMTC'
                  style={{
                     "max-width": "none",
                     width: breakpoint === "mobile" ? 60 : 120,
