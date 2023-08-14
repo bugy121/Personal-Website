@@ -30,21 +30,18 @@ export default function NavBar() {
             <Box className={Styles.mainInfoBoxSmall}>
                 <Menu>
                 <MenuButton className={Styles["grow-on-hover"]} mb='17px' border='0px' fontSize='20px' bg='#000000' pb='3px' borderRadius='5px' fontWeight='900' color='white'><HamburgerIcon/></MenuButton>
-                <MenuList>
-                    <MenuItem className={Styles.menuItem} onClick={() => GoTo('/')} >
+                <MenuList bg='#000000'>
+                    <MenuItem bg='#000000' className={Styles.menuItem} onClick={() => GoTo('/')} >
                         <Box m='10' ml='15px' mr='15px'><Link className={Styles.navLink} href='/'>Home</Link></Box>
                     </MenuItem>
-                    <MenuItem className={Styles.menuItem} onClick={() => GoTo('/portfolio')} >
+                    <MenuItem bg='#000000' className={Styles.menuItem} onClick={() => GoTo('/portfolio')} >
                         <Box m='10' ml='15px' mr='15px'><Link className={Styles.navLink} href='/portfolio'>Portfolio</Link></Box>
                     </MenuItem>
-                    <MenuItem className={Styles.menuItem} onClick={() => GoTo('/workExperience')} >
+                    <MenuItem bg='#000000'className={Styles.menuItem} onClick={() => GoTo('/workExperience')} >
                         <Box m='10' ml='15px' mr='15px'><Link className={Styles.navLink} href='/workExperience'>Work Experience</Link></Box>
                     </MenuItem>
-                    <MenuItem className={Styles.menuItem} onClick={() => GoTo('/contact')} >
+                    <MenuItem bg='#000000' className={Styles.menuItem} onClick={() => GoTo('/contact')} >
                         <Box m='10' ml='15px' mr='15px'><Link className={Styles.navLink} href='/contact'>Contact</Link></Box>
-                    </MenuItem>
-                    <MenuItem className={Styles.menuItem} onClick={() => GoTo('/resume')} >
-                        <Box m='10' ml='15px' mr='15px'><Link className={Styles.navLink} href='/resume'>Resume</Link></Box>
                     </MenuItem>
                 </MenuList>
                 </Menu>
