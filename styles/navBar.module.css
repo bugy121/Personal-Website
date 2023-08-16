@@ -5,7 +5,7 @@
 }
 .navText {
     font-family: 'Montserrat', sans-serif;
-    z-index: 2;
+    z-index: 1000;
     position: absolute;
     top: 0vh
 }
@@ -44,4 +44,8 @@
     border-right-width: 0px;
     border-radius: 2px;
     background-color: #000000;
+    z-index: 1000
+}
+.menu{
+    z-index: 1000
 }

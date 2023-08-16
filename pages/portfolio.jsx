@@ -17,7 +17,7 @@ export default function Portfolio(){
     return(  
         <>
         <Box h='40px'></Box>
-        <Box h='90px' align='center' fontSize='50px' fontWeight='800' className='ContactTitle' >Portfolio</Box>
+        <Box className={Styles.frontText} h='90px' color = 'white' align='center' fontSize='50px' fontWeight='800' >Portfolio</Box>
 
         <Flex justify='center'>
             <Box

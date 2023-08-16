@@ -30,7 +30,7 @@ export default function NavBar() {
             <Box className={Styles.mainInfoBoxSmall}>
                 <Menu>
                 <MenuButton className={Styles["grow-on-hover"]} mb='17px' border='0px' fontSize='20px' bg='#000000' pb='3px' borderRadius='5px' fontWeight='900' color='white'><HamburgerIcon/></MenuButton>
-                <MenuList bg='#000000'>
+                <MenuList className={Styles.menu} bg='#000000'>
                     <MenuItem bg='#000000' className={Styles.menuItem} onClick={() => GoTo('/')} >
                         <Box m='10' ml='15px' mr='15px'><Link className={Styles.navLink} href='/'>Home</Link></Box>
                     </MenuItem>
