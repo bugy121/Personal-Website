@@ -1,6 +1,6 @@
 import {Box,Flex} from '@chakra-ui/react'
 import Image from 'next/image'
-import Styles from '../styles/contact.module.css'
+import Styles from '../styles/portfolio.module.css'
 import Intel from '../public/images/Intel-Logo.png'
 import Truss from '../public/images/IMG_1431.PNG'
 import useBreakpoint from 'use-breakpoint'
@@ -16,7 +16,7 @@ export default function WorkExperience(){
     return(
         <>
         <Box h='40px'></Box>
-        <Box h='90px' align='center' fontSize='50px' fontWeight='800' className='ContactTitle' >Work Experience</Box>
+        <Box color='white' h='90px' align='center' fontSize='50px' fontWeight='800' className={Styles.frontText} >Work Experience</Box>
         { breakpoint === "mobile" && (
                     <Box h='12'/>
                 )}

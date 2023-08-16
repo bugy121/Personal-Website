@@ -16,11 +16,11 @@
 }
 .link {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .contactIcon {
     margin-right: 10px;
-    color: black;
+    color: white;
 }
 .grow-on-hover {
     display: inline-block;

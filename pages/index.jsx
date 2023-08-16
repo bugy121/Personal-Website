@@ -33,12 +33,14 @@ export default function Home() {
               <Box>
                 <FadeIn>
                 <Box
+                  color='white' 
                   fontSize={22}
                   fontWeight={400}
                 >
                   Hello, I{"'"}m
                 </Box>
                 <Box
+                  color='white'
                   fontSize={50}
                   fontWeight={600}
                   lineHeight={"55px"}
@@ -47,6 +49,7 @@ export default function Home() {
                 </Box>
 
                 <Box 
+                  color='white'
                   fontSize={25}
                   fontWeight={400}
                 >
@@ -70,8 +73,8 @@ export default function Home() {
                   </Box>
                 </a>
                 <Box
+                  color='white'
                   w="70%"
-                  color="black"
                   fontWeight={500}
                   fontSize={20}
                 >
@@ -101,6 +104,7 @@ export default function Home() {
                 style={{
                   width:"350px",
                   borderRadius:"10px",
+                  zIndex: 2,
                   "box-shadow": "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
                   "max-width": "none",
                 }}
