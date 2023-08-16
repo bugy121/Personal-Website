@@ -104,7 +104,7 @@ export default function Home() {
                 style={{
                   width:"350px",
                   borderRadius:"10px",
-                  zIndex: 2,
+                  zIndex: "2",
                   "box-shadow": "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
                   "max-width": "none",
                 }}

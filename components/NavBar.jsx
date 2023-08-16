@@ -17,6 +17,7 @@ export default function NavBar() {
         <>
         <Box h='10vh' bg='#000000'></Box>
         <Flex className={Styles.navText} h='75px' pt='15' m='0' w='100vw' color='white' alignItems='center' justify='center'>
+        
         <FadeIn>
             <Flex className={Styles.mainInfoBoxLarge} mb='18px' fontSize='17px' fontWeight='500'>
                 <Box m='10' ml='0px' mr='30px' className={Styles["grow-on-hover"]}><Link className={Styles.navLink} href='/'>Home</Link></Box>
