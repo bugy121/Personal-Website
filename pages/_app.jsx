@@ -1,4 +1,5 @@
 import '../styles/app.css'
+import "../styles/boxShadow.css"
 import Head from 'next/head'
 import NavBar from '../components/NavBar.jsx'
 import { ChakraProvider } from '@chakra-ui/react'

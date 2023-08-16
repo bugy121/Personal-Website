@@ -21,7 +21,7 @@ export default function Portfolio(){
 
         <Flex justify='center'>
             <Box
-            className=""
+            className="boxShadow"
             backgroundColor='black'
             color='white'
             m={30}
@@ -34,6 +34,7 @@ export default function Portfolio(){
                  style={{
                     "max-width": "none",
                     width: breakpoint === "mobile" ? 60 : 120,
+                    position: "absolute",
                     top: 20,
                     right: 25
                  }}
@@ -67,7 +68,7 @@ export default function Portfolio(){
 
         <Flex justify='center'>
             <Box
-            className=""
+            className="boxShadow"
             backgroundColor='black'
             color='white'
             m={30}
@@ -80,6 +81,7 @@ export default function Portfolio(){
                  style={{
                     "max-width": "none",
                     width: breakpoint === "mobile" ? 60 : 120,
+                    position: "absolute",
                     top: 20,
                     right: 25
                  }}
@@ -107,7 +109,7 @@ export default function Portfolio(){
 
         <Flex justify='center'>
             <Box
-            className=""
+            className="boxShadow"
             backgroundColor='black'
             color='white'
             m={30}
@@ -149,7 +151,7 @@ export default function Portfolio(){
 
         <Flex justify='center'>
             <Box
-            className=""
+            className="boxShadow"
             backgroundColor='black'
             color='white'
             m={30}
@@ -161,7 +163,8 @@ export default function Portfolio(){
                  <img src={Star.src} alt='RMTC'
                  style={{
                     "max-width": "none",
-                    width: breakpoint === "mobile" ? 60 : 180,
+                    width: breakpoint === "mobile" ? 100 : 180,
+                    position: "absolute",
                     top: 20,
                     right: 25
                  }}

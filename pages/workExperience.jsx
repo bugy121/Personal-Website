@@ -17,10 +17,13 @@ export default function WorkExperience(){
         <>
         <Box h='40px'></Box>
         <Box h='90px' align='center' fontSize='50px' fontWeight='800' className='ContactTitle' >Work Experience</Box>
+        { breakpoint === "mobile" && (
+                    <Box h='12'/>
+                )}
 
         <Flex justify='center'>
             <Box
-            className=""
+            className="boxShadow"
             backgroundColor='black'
             color='white'
             m={30}
@@ -33,6 +36,7 @@ export default function WorkExperience(){
                  style={{
                     "max-width": "none",
                     width: breakpoint === "mobile" ? 60 : 120,
+                    position: "absolute",
                     top: 20,
                     right: 25
                  }}
@@ -48,14 +52,14 @@ export default function WorkExperience(){
                  <Box p={8}  pb={0} fontSize={24} fontWeight={900}>Intel &#40;Fall 2023&#41;</Box>
                 <Box p={8} pt={0} fontSize={20} fontWeight={800}>Software Developer &#40;Strategic Planning&#41;</Box>
                 <Box pl={8} w="90%" fontSize={20} fontWeight={500} pb={10}>
-                <Box >Transfered Positions to the Strategic Planning department to work on software solutions</Box>
+                <Box >Analyzed access governance system to delete and combine the necessary roles</Box>
                 </Box>
             </Box>
         </Flex>
 
         <Flex justify='center'>
             <Box
-            className=""
+            className="boxShadow"
             backgroundColor='black'
             color='white'
             m={30}
@@ -68,6 +72,7 @@ export default function WorkExperience(){
                  style={{
                     "max-width": "none",
                     width: breakpoint === "mobile" ? 60 : 120,
+                    position: "absolute",
                     top: 20,
                     right: 25
                  }}
@@ -78,7 +83,7 @@ export default function WorkExperience(){
                     </>
                 )}
                 { breakpoint === "mobile" && (
-                    <Box h='12'/>
+                    <Box h='24'/>
                 )}
                  <Box p={8}  pb={0} fontSize={24} fontWeight={900}>Intel &#40;Summer 2023&#41;</Box>
                 <Box pl={8} w="90%" fontSize={20} fontWeight={500} pb={10}>
@@ -93,7 +98,7 @@ export default function WorkExperience(){
 
         <Flex justify='center'>
             <Box
-            className=""
+            className="boxShadow"
             backgroundColor='black'
             color='white'
             m={30}
@@ -106,6 +111,7 @@ export default function WorkExperience(){
                  style={{
                     "max-width": "none",
                     width: breakpoint === "mobile" ? 60 : 120,
+                    position: "absolute",
                     top: 20,
                     right: 25
                  }}
