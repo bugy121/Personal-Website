@@ -6,6 +6,7 @@ import useBreakpoint from 'use-breakpoint'
 import headShot from '../public/images/IMG_1019.JPG'
 import { useAnimate } from "framer-motion"
 import BounceInSide from "../components/animation/bouncein"
+import '../styles/boxShadow.css'
 //import headShot from 'IMG_1019.JPG'
 //import ParticleAnimation from 'react-particle-animation'
 const BREAKPOINTS = { mobile: 0, tablet: 768, desktop: 1280 }
@@ -20,7 +21,7 @@ export default function Home() {
       <>
         <Box h={breakpoint == "desktop" || breakpoint == "tablet" ? 70 : 10}/>
         
-        <Flex justify="center" pr={breakpoint=="desktop"? 150 : null}>
+        <Flex justify="center" pr={breakpoint=="desktop"? 150 : null} zIndex="1">
             <Box w={50}></Box>
 
             <Flex justify="center" position="relative"> {/* Center section on the top page */}
@@ -81,7 +82,7 @@ export default function Home() {
             </Flex>
 
             { breakpoint === "desktop" && (
-            <BounceInSide viewThreshold={0.4} startX={-400} duration={2}>
+            <BounceInSide viewThreshold={0.4} startX={-400} duration={2} className="front"> 
             <Box
               
               backgroundColor="gray.300"
@@ -92,6 +93,7 @@ export default function Home() {
               style={{
                 position: "relative !important",
                 bottom: 40,
+                zIndex: 2,
                 "box-shadow": "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
                 "max-width": "none",
               }}
@@ -106,7 +108,7 @@ export default function Home() {
                 }}
               />
             </Box>
-            </BounceInSide>
+            </BounceInSide> 
             )}
 
         </Flex>
