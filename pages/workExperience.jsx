@@ -35,7 +35,7 @@ export default function WorkExperience(){
                  <img src={Intel.src} alt='RMTC'
                  style={{
                     "max-width": "none",
-                    width: breakpoint === "mobile" ? 60 : 120,
+                    width: breakpoint === "mobile" ? 60 : 100,
                     position: "absolute",
                     top: 20,
                     right: 25
@@ -52,7 +52,7 @@ export default function WorkExperience(){
                  <Box p={8}  pb={0} fontSize={24} fontWeight={900}>Intel &#40;Fall 2023&#41;</Box>
                 <Box p={8} pt={0} fontSize={20} fontWeight={800}>Software Developer &#40;Strategic Planning&#41;</Box>
                 <Box pl={8} w="90%" fontSize={20} fontWeight={500} pb={10}>
-                <Box >Analyzed access governance system to delete and combine the necessary roles</Box>
+                <Box >Optimized the access governance system interface system by deleting/combining the necessary roles </Box>
                 </Box>
             </Box>
         </Flex>
@@ -71,7 +71,7 @@ export default function WorkExperience(){
                  <img src={Intel.src} alt='RMTC'
                  style={{
                     "max-width": "none",
-                    width: breakpoint === "mobile" ? 60 : 120,
+                    width: breakpoint === "mobile" ? 60 : 100,
                     position: "absolute",
                     top: 20,
                     right: 25
@@ -88,9 +88,9 @@ export default function WorkExperience(){
                  <Box p={8}  pb={0} fontSize={24} fontWeight={900}>Intel &#40;Summer 2023&#41;</Box>
                 <Box pl={8} w="90%" fontSize={20} fontWeight={500} pb={10}>
                 <Box mb = {8} fontWeight={900}>Process Engineer &#40;Dry Etch Department&#41;</Box>
-                    <Box mb={8}>I qualified tools through various testing, and relating data to reference tools. These qualifications brought production to Intels current goal.</Box>
-                    <Box mb={8}>I flagged tools and participated in their uninstallation resulting in $16 million saved this year</Box>
-                    <Box mb={8}>Created an ergonomic solution to install O-rings using solidworks and 3d printing</Box>
+                    <Box mb={8}>Performed tool qualifications on MOM entities of etching chambers by running various tests, and analyzign the data. These qualifications brought our process production to Intels current goal.</Box>
+                    <Box mb={8}>Flagged tools and participated in their uninstallation resulting in $16 million saved this year</Box>
+                    <Box mb={8}>Reduced ergonomic constraints during scheduled maintenance cycles by designing a device to push in O-rings</Box>
                 </Box>
                 
             </Box>
