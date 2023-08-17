@@ -51,6 +51,9 @@ export default function BounceInSide(props) {
                 type: "spring",
                 bounce: 0.4,
             }}
+            style={{
+                zIndex: 1,
+            }}
         >
             { children }
         </motion.div>
