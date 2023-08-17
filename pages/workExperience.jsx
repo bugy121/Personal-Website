@@ -16,7 +16,7 @@ export default function WorkExperience(){
     return(
         <>
         <Box h='40px'></Box>
-        <Box color='white' h='90px' align='center' fontSize='50px' fontWeight='800' className={Styles.frontText} >Work Experience</Box>
+        <Box color='black' h='90px' align='center' fontSize='50px' fontWeight='800' className={Styles.frontText} >Work Experience</Box>
         { breakpoint === "mobile" && (
                     <Box h='12'/>
                 )}

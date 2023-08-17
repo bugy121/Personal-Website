@@ -9,8 +9,8 @@ import Particle from '../components/particles.jsx'
 export default function MyApp({ Component, pageProps }) {
     return (
       <ChakraProvider>
-          <NavBar/>
           <Particle/>
+          <NavBar/>
           <Component {...pageProps} />
           
         <Head>

@@ -15,8 +15,8 @@ export default function NavBar() {
 
     return (
         <>
-        <Box h='10vh' bg='#000000'></Box>
-        <Flex className={Styles.navText} h='75px' pt='15' m='0' w='100vw' color='white' alignItems='center' justify='center'>
+       {/*} <Box h='10vh' bg='#000000' className={Styles.navLink}></Box> */}
+        <Flex className={Styles.stickyContainer} h='75px' pt='15' m='0' w='100vw' color='white' alignItems='center' justify='center'>
         
         <FadeIn>
             <Flex className={Styles.mainInfoBoxLarge} mb='18px' fontSize='17px' fontWeight='500'>
