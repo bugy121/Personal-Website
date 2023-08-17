@@ -4,6 +4,7 @@ import Head from 'next/head'
 import NavBar from '../components/NavBar.jsx'
 import { ChakraProvider } from '@chakra-ui/react'
 import Particle from '../components/particles.jsx'
+import {Analytics} from '@vercel/analytics/react'
 
 
 export default function MyApp({ Component, pageProps }) {
@@ -16,7 +17,7 @@ export default function MyApp({ Component, pageProps }) {
         <Head>
           <title>Luke Millam</title>
         </Head>
-        
+        <Analytics/>
       </ChakraProvider>
     )
   }
