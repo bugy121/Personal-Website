@@ -84,7 +84,7 @@ export default function Home() {
                     margin="0px 0px 10px 0px"
                   >
                      View My GitHub
-                  </Box>'
+                  </Box>
                 </a>
                 <Box
                   w="70%"
