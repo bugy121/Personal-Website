@@ -69,6 +69,22 @@ export default function Home() {
                   >
                      View My Resume
                   </Box>
+                  </a>
+                  <a
+                  href="https://github.com/bugy121"
+                  target="_blank"
+                >
+                  <Box
+                    display="inline-block"
+                    backgroundColor="black"
+                    color="white"
+                    padding="10px 20px 10px 20px"
+                    fontWeight={500}
+                    borderRadius={10}
+                    margin="0px 0px 10px 0px"
+                  >
+                     View My GitHub
+                  </Box>'
                 </a>
                 <Box
                   w="70%"
