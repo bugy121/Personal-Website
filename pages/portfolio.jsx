@@ -178,12 +178,14 @@ export default function Portfolio(){
                     <Box h='12'/>
                 )}
                  <Box p={8}  pb={0} fontSize={24} fontWeight={900}> Space Tech and Rocketry&#40;STAR&#41;</Box>
-                <Box p={8} pt={0} fontSize={20} fontWeight={400}> Project Member/Airframe Design</Box>
+                <Box p={8} pt={0} fontSize={20} fontWeight={400}> Project Mentor</Box>
                 <Box pl={10} w="90%" fontSize={20} fontWeight={500} pb={10}>
-                    <Box mb={3}>Project team member of Alula our liquid engine rocket</Box>
+                    <Box mb={3}>Member of Alula our liquid engine rocket</Box>
                     <Box fontWeight={700} fontSize={24} pt={8}>What I did</Box>
-                    <Box mb={3}>Designed an elastic tank mount capable of holding a liquid oxygen tank that expands during flight</Box>
+                    <Box mb={3}>Designed an elastic tank mount, in SolidWorks, capable of holding a liquid oxygen tank that expands during flight, by using a method of preloading and an elastic material with great thermal conductivity</Box>
                     <Box mb={3}>Constructed a holding mechanism for testing the liquid engine</Box>
+                    <Box mb={3}>Designed and implemented method of containing the rocket parts before being inserted into the frame, allowing for the rocket parts to be easily inserted before launch</Box>
+                    <Box mb={3}>Led group of students to complete intro projects and fully integrate them within the club</Box>
                     <Box align='center' fontWeight={800}><Link href="https://stars.berkeley.edu/alula.html">Alula Project Team Website</Link></Box>
                     </Box>
             </Box>
