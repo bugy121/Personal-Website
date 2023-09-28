@@ -89,7 +89,7 @@ export default function WorkExperience(){
                  <Box p={8}  pb={0} fontSize={24} fontWeight={900}>Intel &#40;Summer 2023&#41;</Box>
                 <Box pl={8} w="90%" fontSize={20} fontWeight={500} pb={10}>
                 <Box mb = {8} fontWeight={900}>Process Engineer &#40;Dry Etch Department&#41;</Box>
-                    <Box mb={8}>Performed tool qualifications on MOM entities of etching chambers by running various tests, and analyzign the data. These qualifications brought our process production to Intels current goal.</Box>
+                    <Box mb={8}>Performed tool qualifications on MOM entities of etching chambers by running various tests, and analyzing the data. These qualifications brought our process production to Intels current goal.</Box>
                     <Box mb={8}>Flagged tools and participated in their uninstallation resulting in $16 million saved this year</Box>
                     <Box mb={8}>Reduced ergonomic constraints during scheduled maintenance cycles by designing a device to push in O-rings</Box>
                 </Box>
