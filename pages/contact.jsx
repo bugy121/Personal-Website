@@ -29,7 +29,7 @@ export default function Contact(){
                 <Box h='55px' fontSize='20px' mb='30px' color='black' fontWeight='800' className={Styles["grow-on-hover"]}><a color='black' className={Styles.link} href='mailto:luke.millam@gmail.com'>luke.millam@gmail.com</a></Box>
                 <Box h='55px' fontSize='20px' mb='30px' color='black' fontWeight='800' className={Styles["grow-on-hover"]}><Link color='black' className={Styles.link} target='_blank' href='https://github.com/bugy121' style={{textDecoration: 'none'}}>@bugy121</Link></Box>
                 <Box h='55px' fontSize='20px' mb='30px' color='black' fontWeight='800' className={Styles["grow-on-hover"]}><Link color='black' className={Styles.link} target='_blank' href='https://www.linkedin.com/in/luke-millam-877882225/' style={{textDecoration: 'none'}}>Luke Millam</Link></Box>
-                <Box h='55px' fontSize='20px' mb='30px' color='black' fontWeight='800' className={Styles["grow-on-hover"]}><Link color='black' className={Styles.link} target='_blank' href='https://www.instagram.com/lukemillam' style={{textDecoration: 'none'}}>@lukemillam</Link></Box>
+                <Box h='55px' fontSize='20px' mb='30px' color='black' fontWeight='800' className={Styles["grow-on-hover"]}><Link color='black' className={Styles.link} target='_blank' href='https://www.instagram.com/scubamillam' style={{textDecoration: 'none'}}>@scubamillam</Link></Box>
                 </Flex>
             </Flex>
             </>
@@ -48,7 +48,7 @@ export default function Contact(){
                 <Box h='55px' fontSize='20px' mb='30px' color='black' fontWeight='800' className={Styles["grow-on-hover"]}><a color='black' className={Styles.link} href='mailto:luke.millam@gmail.com'>luke.millam@gmail.com</a></Box>
                 <Box h='55px' fontSize='20px' mb='30px' color='black' fontWeight='800' className={Styles["grow-on-hover"]}><Link color='black' className={Styles.link} target='_blank' href='https://github.com/bugy121' style={{textDecoration: 'none'}}>@bugy121</Link></Box>
                 <Box h='55px' fontSize='20px' mb='30px' color='black' fontWeight='800' className={Styles["grow-on-hover"]}><Link color='black' className={Styles.link} target='_blank' href='https://www.linkedin.com/in/luke-millam-877882225/' style={{textDecoration: 'none'}}>Luke Millam</Link></Box>
-                <Box h='55px' fontSize='20px' mb='30px' color='black' fontWeight='800' className={Styles["grow-on-hover"]}><Link color='black' className={Styles.link} target='_blank' href='https://www.instagram.com/lukemillam' style={{textDecoration: 'none'}}>@lukemillam</Link></Box>
+                <Box h='55px' fontSize='20px' mb='30px' color='black' fontWeight='800' className={Styles["grow-on-hover"]}><Link color='black' className={Styles.link} target='_blank' href='https://www.instagram.com/scubamillam' style={{textDecoration: 'none'}}>@scubamillam</Link></Box>
                 </Flex>
             </Flex>
             </>
