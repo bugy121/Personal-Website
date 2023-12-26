@@ -54,6 +54,7 @@ export default function WorkExperience(){
                  <Box p={8}  pb={0} fontSize={24} fontWeight={900}>Intel &#40;Aug 2023 - Present&#41;</Box>
                 <Box p={8} pt={0} fontSize={20} fontWeight={800}>Software Developer &#40;Strategic Planning&#41;</Box>
                 <Box pl={8} w="90%" fontSize={20} fontWeight={500} pb={10}>
+                <Box mb={8}>Developed a function that allows input data to be displayed on an internal website using Jquery to create a UI and nodeJS to send information from the UI to an SQL database</Box>
                 <Box mb={8}>Cut the amount of people granting access by half, by using machine learning k nearest neighbor to group users together and create bundled accesses</Box>
                 <Box>Provided data models and visuals using Jupyter Notebook and Pandas by manipulating the data into an understandable format</Box>
                 </Box>

@@ -100,6 +100,35 @@ export default function Portfolio(){
                     </Box>
             </Box>
         </Flex>
+        
+        <Flex justify='center'>
+            <Box
+            className="boxShadow"
+            backgroundColor='black'
+            color='white'
+            m={30}
+            w={900}
+            borderRadius={15}
+            style={{
+                position: "relative"
+            }}>
+                 
+                {breakpoint == "desktop" && (
+                    <>
+                    </>
+                )}
+                { breakpoint === "mobile" && (
+                    <Box h='12'/>
+                )}
+                 <Box p={8}  pb={0} fontSize={24} fontWeight={900}>Pet Feeder</Box>
+                <Box pl={10} w="90%" fontSize={20} fontWeight={500} pb={10}>
+                    <Box fontWeight={700} fontSize={24} pt={8}>What I did</Box>
+                    <Box mb={3}> Created a circuit board utilizing an ESP 32 and Thonny IDE to create a pet feeder that automatically feeds pet, while keeping track of whether there is food available and how much the pet has eaten</Box>
+                    <Box mb={3}>Created an MQTT signal that notifies user when the pet has eaten, how much the pet has eaten, and if there is no more available food within the feeder</Box>
+                    <Box align='center' fontWeight={800}><Link href="https://youtu.be/x5bXShz52nY">Video</Link></Box>
+                    </Box>
+            </Box>
+        </Flex>
 
         <Flex justify='center'>
             <Box
@@ -124,7 +153,7 @@ export default function Portfolio(){
                 <Box pl={10} w="90%" fontSize={20} fontWeight={500} pb={10}>
                     <Box fontWeight={700} fontSize={24} pt={8}>What I did</Box>
                     <Box mb={3}> Created a circuit board utilizing an ESP 32 and Thonny IDE to create a tic tac toe game that lights up LED lights to show the board, and allows you to play against a computer that isn’t capable of losing.</Box>
-                    <Box mb={3}>C•	Created a mobile environment utilizing MQTT for IOT messaging and an MQTT broker that allows someone to play on the phone environment against someone playing on the circuit board attached to the ESP 32.</Box>
+                    <Box mb={3}>Created a mobile environment utilizing MQTT for IOT messaging and an MQTT broker that allows someone to play on the phone environment against someone playing on the circuit board attached to the ESP 32.</Box>
                     <Box align='center' fontWeight={800}><Link>Video Coming Soon</Link></Box>
                     </Box>
             </Box>
