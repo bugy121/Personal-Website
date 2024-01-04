@@ -19,7 +19,7 @@ export default function Home() {
 
     return (
       <>
-        <Box h={breakpoint == "desktop" || breakpoint == "tablet" ? 70 : 10}/>
+        <Box h={breakpoint == "desktop" || breakpoint == "tablet" ? 70 : 70}/>
         
         <Flex justify="center" pr={breakpoint=="desktop"? 150 : null} zIndex="1">
             <Box w={50}></Box>
@@ -28,8 +28,8 @@ export default function Home() {
 
             <Box w={90}></Box>
               
-
-              <Box w={8}/>
+            
+            <Box w={breakpoint == "desktop" || breakpoint == "tablet" ? 8 : 0}/>
 
               <Box>
                 <FadeIn>

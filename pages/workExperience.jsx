@@ -17,11 +17,9 @@ export default function WorkExperience(){
 
     return(
         <>
-        <Box h='40px'></Box>
+        <Box h={breakpoint == "desktop" || breakpoint == "tablet" ? '10px' : '70px'}></Box>
         <Box color='black' h='90px' align='center' fontSize='50px' fontWeight='800' className={Styles.frontText} >Work Experience</Box>
-        { breakpoint === "mobile" && (
-                    <Box h='12'/>
-                )}
+
 
         <Flex justify='center'>
             <Box
@@ -48,9 +46,7 @@ export default function WorkExperience(){
                     <>
                     </>
                 )}
-                { breakpoint === "mobile" && (
-                    <Box h='12'/>
-                )}
+                
                  <Box p={8}  pb={0} fontSize={24} fontWeight={900}>Intel &#40;Aug 2023 - Present&#41;</Box>
                 <Box p={8} pt={0} fontSize={20} fontWeight={800}>Software Developer &#40;Strategic Planning&#41;</Box>
                 <Box pl={8} w="90%" fontSize={20} fontWeight={500} pb={10}>
@@ -128,8 +124,8 @@ export default function WorkExperience(){
                 { breakpoint === "mobile" && (
                     <Box h='12'/>
                 )}
-                 <Box p={8}  pb={0} fontSize={28} fontWeight={900}> Rate My Therapy Company &#40;Aug 2022 - Present&#41;</Box>
-                <Box p={8} pt={0} fontSize={24} fontWeight={400}> CoFounder & Developer</Box>
+                 <Box p={8}  pb={0} fontSize={24} fontWeight={900}> Rate My Therapy Company &#40;Aug 2022 - Present&#41;</Box>
+                <Box p={8} pt={0} fontSize={20} fontWeight={400}> CoFounder & Developer</Box>
 
                 <Box pl={8} w="90%" fontSize={20} fontWeight={500} pb={10} > {/* The main content of the seciton*/}
                     <Box mb={3}>Developed a full stack application allowing therapists to rate their workplace, and make informed decisions about future employers. Currently 60+ users.</Box>
@@ -175,8 +171,8 @@ export default function WorkExperience(){
                 { breakpoint === "mobile" && (
                     <Box h='12'/>
                 )}
-                 <Box p={8}  pb={0} fontSize={28} fontWeight={900}> Wapply &#40;Sep 2021 - May 2022&#41;</Box>
-                <Box p={8} pt={0} fontSize={24} fontWeight={400}> CoFounder & Developer</Box>
+                 <Box p={8}  pb={0} fontSize={24} fontWeight={900}> Wapply &#40;Sep 2021 - May 2022&#41;</Box>
+                <Box p={8} pt={0} fontSize={20} fontWeight={400}> CoFounder & Developer</Box>
                 <Box pl={10} w="90%" fontSize={20} fontWeight={500} pb={10}>
                     <Box mb={3}>Co-founded and developed Wapply, a platform connecting small business owners with entry level workers</Box>
                     <Box fontWeight={700} fontSize={24} pt={8}>What I did</Box>

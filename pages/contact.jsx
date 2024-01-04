@@ -14,7 +14,7 @@ export default function Contact(){
 
     return(
         <>
-        <Box color='black' className={Styles.frontText} paddingTop='30px' align='center' fontSize='50px' fontWeight='800' >Contact</Box>
+        <Box color='black' className={Styles.frontText} paddingTop={breakpoint == "desktop" || breakpoint == "tablet" ? '30px' : '70px'} align='center' fontSize='50px' fontWeight='800' >Contact</Box>
         {breakpoint == "desktop" && (
             <>
                 <Flex mt='10px' justify='center' >

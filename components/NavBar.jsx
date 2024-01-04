@@ -4,8 +4,17 @@ import {Flex, Text, Box, Spacer, Checkbox, CheckboxGroup, Menu, MenuButton, Menu
 import Styles from '../styles/navBar.module.css'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import { useRouter } from 'next/router';
+import useBreakpoint from 'use-breakpoint'
+
+const BREAKPOINTS = { mobile: 0, tablet: 768, desktop: 1280 }
 
 export default function NavBar() {
+
+    const { breakpoint, maxWidth, minWidth } = useBreakpoint(
+        BREAKPOINTS,
+        'desktop'
+      )
+
     const router = useRouter()
 
     const GoTo = (link) => {
@@ -16,7 +25,7 @@ export default function NavBar() {
     return (
         <>
        {/*} <Box h='10vh' bg='#000000' className={Styles.navLink}></Box> */}
-        <Flex className={Styles.stickyContainer} h='75px' pt='15' m='0' w='100vw' color='white' alignItems='center' justify='center'>
+        <Flex className={Styles.stickyContainer} h={breakpoint == "desktop" || breakpoint == "tablet" ? '75px' : '0px'} pt='15' m='0' w='100vw' color='white' alignItems='center' justify='center'>
         
         <FadeIn>
             <Flex className={Styles.mainInfoBoxLarge} mb='18px' fontSize='17px' fontWeight='500'>
@@ -28,9 +37,9 @@ export default function NavBar() {
         </FadeIn>
 
         <FadeIn>
-            <Box className={Styles.mainInfoBoxSmall}>
+            <Flex className={Styles.mainInfoBoxSmall} bg='white' w='100vw' justifyContent='right'>
                 <Menu>
-                <MenuButton className={Styles["grow-on-hover"]} mb='17px' border='0px' fontSize='20px' bg='#000000' pb='3px' borderRadius='5px' fontWeight='900' color='white'><HamburgerIcon/></MenuButton>
+                <MenuButton className={Styles["grow-on-hover"]} mb='17px' mt='60px' mr='10px' border='0px' fontSize='30px' pb='3px' fontWeight='900' color='black'><HamburgerIcon/></MenuButton>
                 <MenuList className={Styles.menu} bg='#000000'>
                     <MenuItem bg='#000000' className={Styles.menuItem} onClick={() => GoTo('/')} >
                         <Box m='10' ml='15px' mr='15px'><Link className={Styles.navLink} href='/'>Home</Link></Box>
@@ -46,7 +55,7 @@ export default function NavBar() {
                     </MenuItem>
                 </MenuList>
                 </Menu>
-            </Box>
+            </Flex>
         </FadeIn>
         </Flex>
         

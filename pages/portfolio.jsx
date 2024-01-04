@@ -14,8 +14,8 @@ export default function Portfolio(){
 
     return(  
         <>
-        <Box h='40px'></Box>
-        <Box className={Styles.frontText} h='90px' color = 'black' align='center' fontSize='50px' fontWeight='800' >Portfolio</Box>
+        <Box h={breakpoint == "desktop" || breakpoint == "tablet" ? '10px' : '70px'}></Box>
+        <Box className={Styles.frontText} h='90px' color = 'black' align='center' fontSize='50px' fontWeight='800'>Portfolio</Box>
 
         <Flex justify='center'>
             <Box
