@@ -19,7 +19,7 @@ export default function WorkExperience(){
         <>
         <Box h={breakpoint == "desktop" || breakpoint == "tablet" ? '10px' : '70px'}></Box>
         <Box color='black' h='90px' align='center' fontSize='50px' fontWeight='800' className={Styles.frontText} >Work Experience</Box>
-
+        <Box h={breakpoint == "desktop" || breakpoint == "tablet" ? '10px' : '70px'}></Box>
 
         <Flex justify='center'>
             <Box
