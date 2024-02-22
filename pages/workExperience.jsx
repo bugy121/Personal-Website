@@ -50,9 +50,10 @@ export default function WorkExperience(){
                  <Box p={8}  pb={0} fontSize={24} fontWeight={900}>Intel &#40;Aug 2023 - Present&#41;</Box>
                 <Box p={8} pt={0} fontSize={20} fontWeight={800}>Software Developer &#40;Strategic Planning&#41;</Box>
                 <Box pl={8} w="90%" fontSize={20} fontWeight={500} pb={10}>
-                <Box mb={8}>Developed a function that allows input data to be displayed on an internal website using Jquery to create a UI and nodeJS to send information from the UI to an SQL database</Box>
-                <Box mb={8}>Cut the amount of people granting access by half, by using machine learning k nearest neighbor to group users together and create bundled accesses</Box>
-                <Box>Provided data models and visuals using Jupyter Notebook and Pandas by manipulating the data into an understandable format</Box>
+                <Box mb={8}>Presented data models to business executives by utilizing Jupyter Notebook, Pandas and PowerPoint, successfully demonstrating best course of action</Box>
+                <Box mb={8}>Documented the use of data analysis and KNN implementation used in initial project with the hope of being used by other teams</Box>
+                <Box>Currently working with MSOAI to create a UI solution within internal website to simplify inputting data into SQL database, Utilizing jQuery and Node, and update the MSOAI internal website to have the most up to date information regarding AI uses at Intel</Box>
+                <Box mb={8}></Box>
                 </Box>
             </Box>
         </Flex>
@@ -88,8 +89,9 @@ export default function WorkExperience(){
                  <Box p={8}  pb={0} fontSize={24} fontWeight={900}>Intel &#40;Jun 2023 - Aug 2023&#41;</Box>
                 <Box pl={8} w="90%" fontSize={20} fontWeight={500} pb={10}>
                 <Box mb = {8} fontWeight={900}>Process Engineer &#40;Dry Etch Department&#41;</Box>
-                    <Box mb={8}>Performed tool qualifications on MOM entities of etching chambers by running various tests, and analyzing the data. These qualifications brought our process production to Intels current goal.</Box>
-                    <Box mb={8}>Flagged tools and participated in their uninstallation resulting in $16 million saved this year</Box>
+                    <Box mb={8}>Pulled data from SQL database and analyzed data within JMP to create reports necessary to address errors and complete the tool qualification process</Box>
+                    <Box mb={8}>Performed tool qualifications on a certain entity by running various tests within the tool interfaces (GUI) resulting in tool being brought up to productio</Box>
+                    <Box mb={8}>Flagged tools for uninstallation by running tests in GUI, looking for wafer defects, analyzing data within JMP, creating presentation to display the data, and participating in uninstalling two tools resulting in minor decrease in production capabilities, but a total cost reduction of approximately $1,000,000 annually </Box>
                     <Box mb={8}>Reduced ergonomic constraints during scheduled maintenance cycles by designing a device to push in O-rings</Box>
                 </Box>
                 

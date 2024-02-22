@@ -154,7 +154,6 @@ export default function Portfolio(){
                     <Box fontWeight={700} fontSize={24} pt={8}>What I did</Box>
                     <Box mb={3}> Created a circuit board utilizing an ESP 32 and Thonny IDE to create a tic tac toe game that lights up LED lights to show the board, and allows you to play against a computer that isn’t capable of losing.</Box>
                     <Box mb={3}>Created a mobile environment utilizing MQTT for IOT messaging and an MQTT broker that allows someone to play on the phone environment against someone playing on the circuit board attached to the ESP 32.</Box>
-                    <Box align='center' fontWeight={800}><Link>Video Coming Soon</Link></Box>
                     </Box>
             </Box>
         </Flex>
