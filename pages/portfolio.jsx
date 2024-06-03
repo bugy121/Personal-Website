@@ -44,7 +44,45 @@ export default function Portfolio(){
                 { breakpoint === "mobile" && (
                     <Box h='12'/>
                 )}
-                 <Box p={8}  pb={0} fontSize={24} fontWeight={900}> Hemp Reinforced Ice Bridge Design&#40;Patented&#41;</Box>
+                <Box p={8}  pb={0} fontSize={24} fontWeight={900}> Nutanix</Box>
+                <Box p={8} pt={0} fontSize={20} fontWeight={400}> Project Consultant</Box>
+                <Box pl={10} w="90%" fontSize={20} fontWeight={500} pb={10}>
+                    <Box fontWeight={700} fontSize={24} pt={8}>What I did</Box>
+                    <Box mb={3}>Conducted interviews of database developers to understand current needs and connect companies with Nutanix’s DBMS, resulting in 5 potential clients</Box>
+                    <Box mb={3}>Presented a market strategy, based on interview responses, recommending specific companies and sectors most in need of Nutanix’s DBMS</Box>
+                    
+                    </Box>
+            </Box>
+        </Flex>
+
+        <Flex justify='center'>
+            <Box
+            className="boxShadow"
+            backgroundColor='black'
+            color='white'
+            m={30}
+            w={900}
+            borderRadius={15}
+            style={{
+                position: "relative"
+            }}>
+                 {/*<img src={wapply.src} alt='RMTC'
+                 style={{
+                    "max-width": "none",
+                    width: breakpoint === "mobile" ? 60 : 120,
+                    top: 20,
+                    right: 25
+                 }}
+                 />
+                */}
+                {breakpoint == "desktop" && (
+                    <>
+                    </>
+                )}
+                { breakpoint === "mobile" && (
+                    <Box h='12'/>
+                )}
+                <Box p={8}  pb={0} fontSize={24} fontWeight={900}> Hemp Reinforced Ice Bridge Design&#40;Patented&#41;</Box>
                 <Box p={8} pt={0} fontSize={20} fontWeight={400}> Inventer & Researcher</Box>
                 <Box pl={10} w="90%" fontSize={20} fontWeight={500} pb={10}>
                     <Box mb={3}>I invented a method of constructing ice bridges with the aim of increasing safety and reducing construction times</Box>
