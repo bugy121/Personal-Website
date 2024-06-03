@@ -2,6 +2,7 @@ import {Box,Flex,Link} from '@chakra-ui/react'
 import Image from 'next/image'
 import Styles from '../styles/portfolio.module.css'
 import Star from '../public/images/star_logo_wordmark-dark-transparent-01-300h.png'
+import Nutanix from '../public/images/Logo-Nutanix.jpg'
 import useBreakpoint from 'use-breakpoint'
 
 const BREAKPOINTS = { mobile: 0, tablet: 768, desktop: 1280 }
@@ -28,15 +29,15 @@ export default function Portfolio(){
             style={{
                 position: "relative"
             }}>
-                 {/*<img src={wapply.src} alt='RMTC'
+                 <img src={Nutanix.src}
                  style={{
                     "max-width": "none",
                     width: breakpoint === "mobile" ? 60 : 120,
+                    position: 'absolute',
                     top: 20,
                     right: 25
                  }}
                  />
-                */}
                 {breakpoint == "desktop" && (
                     <>
                     </>
@@ -50,8 +51,7 @@ export default function Portfolio(){
                     <Box fontWeight={700} fontSize={24} pt={8}>What I did</Box>
                     <Box mb={3}>Conducted interviews of database developers to understand current needs and connect companies with Nutanix’s DBMS, resulting in 5 potential clients</Box>
                     <Box mb={3}>Presented a market strategy, based on interview responses, recommending specific companies and sectors most in need of Nutanix’s DBMS</Box>
-                    
-                    </Box>
+                </Box>
             </Box>
         </Flex>
 
