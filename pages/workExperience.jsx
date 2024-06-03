@@ -50,9 +50,10 @@ export default function WorkExperience(){
                  <Box p={8}  pb={0} fontSize={24} fontWeight={900}>Intel &#40;Aug 2023 - Present&#41;</Box>
                 <Box p={8} pt={0} fontSize={20} fontWeight={800}>Software Developer &#40;Strategic Planning&#41;</Box>
                 <Box pl={8} w="90%" fontSize={20} fontWeight={500} pb={10}>
+                <Box mb={8}>Created a tool within our access system by implementing machine learning (KNN) resulting in a reduction of false/unapproved access requests by 30% </Box>
                 <Box mb={8}>Presented data models to business executives by utilizing Jupyter Notebook, Pandas and PowerPoint, successfully demonstrating best course of action</Box>
                 <Box mb={8}>Documented the use of data analysis and KNN implementation used in initial project with the hope of being used by other teams</Box>
-                <Box>Currently working with MSOAI to create a UI solution within internal website to simplify inputting data into SQL database, Utilizing jQuery and Node, and update the MSOAI internal website to have the most up to date information regarding AI uses at Intel</Box>
+                <Box>Currently working  to create a UI solution within internal website to simplify inputting data into SQL database, Utilizing jQuery and Node, and update an internal website to have the most up to date information</Box>
                 <Box mb={8}></Box>
                 </Box>
             </Box>
@@ -126,7 +127,7 @@ export default function WorkExperience(){
                 { breakpoint === "mobile" && (
                     <Box h='12'/>
                 )}
-                 <Box p={8}  pb={0} fontSize={24} fontWeight={900}> Rate My Therapy Company &#40;Aug 2022 - Present&#41;</Box>
+                 <Box p={8}  pb={0} fontSize={24} fontWeight={900}> Rate My Therapy Company &#40;Aug 2022 - Dec 2023&#41;</Box>
                 <Box p={8} pt={0} fontSize={20} fontWeight={400}> CoFounder & Developer</Box>
 
                 <Box pl={8} w="90%" fontSize={20} fontWeight={500} pb={10} > {/* The main content of the seciton*/}
@@ -139,7 +140,7 @@ export default function WorkExperience(){
                         Created and implemented client designs, following essential techniques for good UI/UX design to make the interface
                         user-centered
                     </Box>
-                    <Box align='center' fontWeight={800}><Link href="https://ratemytherapycompany.com">Rate My Therapy Company Website</Link></Box>
+                    <Box align='center' fontWeight={800}><Link href="https://vercel.com/rate-my-therapy-company/rate-my-therapy-company/9iztwa6AZmgeNsuBBwi62X9TJNyq">Rate My Therapy Company Website</Link></Box>
                     
                 </Box>
             </Box>
