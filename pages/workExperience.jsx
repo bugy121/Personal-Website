@@ -44,8 +44,10 @@ export default function WorkExperience(){
                 
                 {breakpoint == "desktop" && (
                     <>
-                        <Box h='12'/>
                     </>
+                )}
+                { breakpoint === "mobile" && (
+                    <Box h='12'/>
                 )}
                 
                  <Box p={8}  pb={0} fontSize={24} fontWeight={900}>Intel &#40;Aug 2023 - Present&#41;</Box>
