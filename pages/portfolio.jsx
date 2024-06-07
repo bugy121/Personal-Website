@@ -167,63 +167,6 @@ export default function Portfolio(){
                     </Box>
             </Box>
         </Flex>
-
-        <Flex justify='center'>
-            <Box
-            className="boxShadow"
-            backgroundColor='black'
-            color='white'
-            m={30}
-            w={900}
-            borderRadius={15}
-            style={{
-                position: "relative"
-            }}>
-                 
-                {breakpoint == "desktop" && (
-                    <>
-                    </>
-                )}
-                { breakpoint === "mobile" && (
-                    <Box h='12'/>
-                )}
-                 <Box p={8}  pb={0} fontSize={24} fontWeight={900}>Tic Tac Toe</Box>
-                <Box pl={10} w="90%" fontSize={20} fontWeight={500} pb={10}>
-                    <Box fontWeight={700} fontSize={24} pt={8}>What I did</Box>
-                    <Box mb={3}> Created a circuit board utilizing an ESP 32 and Thonny IDE to create a tic tac toe game that lights up LED lights to show the board, and allows you to play against a computer that isn’t capable of losing.</Box>
-                    <Box mb={3}>Created a mobile environment utilizing MQTT for IOT messaging and an MQTT broker that allows someone to play on the phone environment against someone playing on the circuit board attached to the ESP 32.</Box>
-                    </Box>
-            </Box>
-        </Flex>
-
-        <Flex justify='center'>
-            <Box
-            className="boxShadow"
-            backgroundColor='black'
-            color='white'
-            m={30}
-            w={900}
-            borderRadius={15}
-            style={{
-                position: "relative"
-            }}>
-                
-                {breakpoint == "desktop" && (
-                    <>
-                    </>
-                )}
-                { breakpoint === "mobile" && (
-                    <Box h='12'/>
-                )}
-                 <Box p={8}  pb={0} fontSize={24} fontWeight={900}> Weather App</Box>
-                <Box pl={10} w="90%" fontSize={20} fontWeight={500} pb={10}>
-                    <Box fontWeight={700} fontSize={24} pt={8}>What I did</Box>
-                    <Box mb={3}>Developed an application in React Native to show the weather using OpenWeather API to fetch temperature and other weather characteristics</Box>
-                    <Box mb={3}>Created a dynamic interface that changes style elements based on the characteristics of the weather shown.</Box>
-                    <Box align='center' fontWeight={800}><Link href="https://github.com/bugy121/weatherApp">Repository Link</Link></Box>
-                    </Box>
-            </Box>
-        </Flex>
         </>
     )
 }
