@@ -50,8 +50,50 @@ export default function WorkExperience(){
                     <Box h='12'/>
                 )}
                 
-                 <Box p={8}  pb={0} fontSize={24} fontWeight={900}>Intel &#40;Aug 2023 - Present&#41;</Box>
-                <Box p={8} pt={0} fontSize={20} fontWeight={800}>Software Developer &#40;Strategic Planning&#41;</Box>
+                 <Box p={8}  pb={0} fontSize={24} fontWeight={900}>Intel &#40;June 2024 - Aug 2024&#41;</Box>
+                <Box p={8} pt={0} fontSize={20} fontWeight={800}>ML Engineer Intern &#40;Manufacturing Automation&#41;</Box>
+                <Box pl={8} w="90%" fontSize={20} fontWeight={500} pb={10}>
+                <Box mb={8}>Developed a predictive model using machine learning techniques (ADA Boosting, Random Forest, etc) and data analysis tools (pandas, sklearn) to forecast
+                tool conversion costs and compatibility, supporting the implementation of a $300M cost-saving initiative and driving an additional $100M in savings. </Box>
+                <Box mb={8}>Designed Chatbot aimed to provide tool error support to technicians, utilizing OpenAI Api and Azure database, resulting in a full scale chatbot application</Box>
+                <Box mb={8}>Contributed to the development of a Tapeout support application by implementing commenting and privacy features, reducing deployment time by 2 weeks.</Box>
+                <Box>Developed an Angular-based user interface for the chatbot, enhancing usability and seamless integration with existing applications.</Box>
+                <Box mb={8}></Box>
+                </Box>
+            </Box>
+        </Flex>
+
+        <Flex justify='center'>
+            <Box
+            className="boxShadow"
+            backgroundColor='black'
+            color='white'
+            m={30}
+            w={900}
+            borderRadius={15}
+            style={{
+                position: "relative"
+            }}>
+                 <img src={Intel.src} alt='RMTC'
+                 style={{
+                    "max-width": "none",
+                    width: breakpoint === "mobile" ? 60 : 100,
+                    position: "absolute",
+                    top: 20,
+                    right: 25
+                 }}
+                 />
+                
+                {breakpoint == "desktop" && (
+                    <>
+                    </>
+                )}
+                { breakpoint === "mobile" && (
+                    <Box h='12'/>
+                )}
+                
+                 <Box p={8}  pb={0} fontSize={24} fontWeight={900}>Intel &#40;Aug 2023 - May 2024&#41;</Box>
+                <Box p={8} pt={0} fontSize={20} fontWeight={800}>Software Engineer Intern &#40;Strategic Planning&#41;</Box>
                 <Box pl={8} w="90%" fontSize={20} fontWeight={500} pb={10}>
                 <Box mb={8}>Created a tool within our access system by implementing machine learning (KNN) resulting in a reduction of false/unapproved access requests by 30% </Box>
                 <Box mb={8}>Presented data models to business executives by utilizing Jupyter Notebook, Pandas and PowerPoint, successfully demonstrating best course of action</Box>
